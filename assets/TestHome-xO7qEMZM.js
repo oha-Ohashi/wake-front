@@ -1,0 +1,1 @@
+import{d as n,o as s,c as o,a as e}from"./index-DaXiiVl_.js";const c=n({__name:"TestHome",setup(t){return(r,a)=>(s(),o("main",null,a[0]||(a[0]=[e("div",{class:"container"},[e("h2",{class:"head-h2"},"ホーム"),e("p",null,"何もありません。")],-1)])))}});export{c as default};
