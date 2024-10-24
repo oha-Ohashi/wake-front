@@ -1,0 +1,66 @@
+@import './base.css';
+
+@font-face {
+  font-family: "Noto Sans JP";
+  src:
+    url("../assets/NotoSansJP-VariableFont_wght.ttf") format("truetype");
+}
+
+body {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.head-h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card{
+    margin-bottom: 10px;
+}
+
+.dropdown{
+    display: inline-block;
+}
+
+.inline{
+    display: inline-block;
+}
+
+h6{line-height: 24px;}
+
+.person-flex{
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.myicon{
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+    background-color: transparent;
+}
+.myicon2{
+    width: 90px;
+    margin-left: 0px;
+}
+.myred{
+    background-color: rgba(175, 145, 145, 0);
+}
+.myblue{
+    background-color: rgba(183, 183, 248, 0);
+    padding: 0 0 0 0;
+}
+.myopp{
+    padding-left: 15px;
+    width: 100px;
+}
+
+table{
+    font-size: 80%;
+}
+
+.sq_status{
+    margin: auto;
+    width: 180px;
+}
