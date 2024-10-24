@@ -14,6 +14,8 @@
       <h2 class="head-h2">ホーム</h2>
 
         <p>何もありません。</p>
+        <RouterLink to="/list">リスト</RouterLink>
+        <RouterLink to="/personal/alice">アリス</RouterLink>
 
     </div>
 
