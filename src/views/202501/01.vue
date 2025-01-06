@@ -42,7 +42,7 @@
 <template>
     <main>
         <div class="container">
-            <p>{{ params.date }} {{ params.name }} {{ params.price }} {{ params.type }} {{ params.description }}</p>
+            <h2>New entry</h2>
 
             <div>
                 <label for="Fdate" class="form-label">Date</label>
