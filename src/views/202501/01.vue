@@ -87,11 +87,11 @@
                     </thead>
                     <tbody>
                         <tr v-for="(row, i) in recent5table" :key="i">
-                            <td>{{ row.date }}</td>
-                            <td>{{ row.name }}</td>
-                            <td>{{ row.value }}</td>
-                            <td>{{ row.type }}</td>
-                            <td>{{ row.description }}</td>
+                            <td>{{ row['date'] }}</td>
+                            <td>{{ row['name'] }}</td>
+                            <td>{{ row['value'] }}</td>
+                            <td>{{ row['type'] }}</td>
+                            <td>{{ row['description'] }}</td>
                         </tr>
                         <!--
                         <tr>
