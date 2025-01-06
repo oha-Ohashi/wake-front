@@ -10,6 +10,13 @@ const router = createRouter({
       //component: HomeView
     },
     {
+      path: '/202501',
+      name: '',
+      component: () => import('../views/202501/01.vue'),
+      props: {report: true, name: "-"}
+      //component: HomeView
+    },
+    {
       path: '/list',
       name: '',
       component: () => import('../views/Test1.vue'),
