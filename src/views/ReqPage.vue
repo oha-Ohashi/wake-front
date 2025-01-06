@@ -14,7 +14,7 @@
   <main>
     <div class="container">
 
-        <h1>ああああああ</h1>
+        <h1>あああああ</h1>
 
         <button v-on:click="oneSync3('init', 'a', '_')" type="button" class="btn btn-danger">init</button>
         <div>
